@@ -7,6 +7,7 @@ const StoreContext = createContext({
   products: [],
   categories: [],
   addProduct: () => {},
+  setProducts: () => {},
 });
 
 const StoreProvider = ({ children }) => {
@@ -44,7 +45,9 @@ const StoreProvider = ({ children }) => {
   }
 
   return (
-    <StoreContext.Provider value={{ addProduct, images, categories, products }}>
+    <StoreContext.Provider
+      value={{ setProducts, addProduct, images, categories, products }}
+    >
       {children}
     </StoreContext.Provider>
   );
