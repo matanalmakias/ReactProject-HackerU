@@ -1,0 +1,32 @@
+.bbutton {
+  cursor: pointer;
+  padding: 5px !important;
+  margin: 5px !important;
+  color: rgb(225, 234, 255);
+  transition: 0.1s;
+  background-color: rgb(96, 62, 235) !important;
+}
+.bbutton:hover {
+  padding: 5px !important;
+  margin: 5px !important;
+  color: rgb(255, 255, 255);
+  background-color: rgb(135, 36, 185) !important;
+}
+.bbutton2 {
+  transition: 0.3s;
+  cursor: pointer;
+
+  padding: 5px !important;
+  margin: 5px !important;
+  color: rgb(225, 234, 255);
+  background-color: rgb(235, 62, 76) !important;
+}
+.bbutton2:hover {
+  padding: 5px !important;
+  margin: 5px !important;
+  color: rgb(251, 253, 255);
+  background-color: rgb(72, 76, 179) !important;
+}
+.hide_class {
+  display: none;
+}
